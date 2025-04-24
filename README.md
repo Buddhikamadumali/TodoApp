@@ -1,98 +1,109 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-# Getting Started
+# 📝 Smart To-Do App (React Native)
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+A sleek and minimalistic To-Do list mobile app built using **React Native CLI**. This app helps users manage daily tasks effectively with persistent Acync storage and an intuitive user interface. Whether you're tracking chores, assignments, or reminders—Smart To-Do makes productivity simple.
 
-## Step 1: Start Metro
+---
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+## ⚡ Features
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+- Add and delete tasks with optional descriptions.
+- Mark tasks as complete/incomplete with one tap.
+- Confirmation pop-up before deleting tasks.
+- Tasks persist across app restarts via **AsyncStorage**.
+- State management using **Zustand** for a lightweight and efficient store.
+- Smooth scrollable interface and elegant design with custom components.
+- Works seamlessly on Android devices.
 
-```sh
-# Using npm
-npm start
+---
 
-# OR using Yarn
-yarn start
+## 🛠 Installation & Setup
+
+### ✅ Prerequisites
+
+Ensure you have the following tools installed:
+
+- **Node.js**
+- **Java JDK (11 or 17)**
+- **Android Studio** (for emulator/device testing)
+- **React Native CLI**
+
+Install CLI globally:
+
+```bash
+npm install -g react-native-cli
 ```
 
-## Step 2: Build and run your app
+### 🚀 Clone the Repo
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
-
-### Android
-
-```sh
-# Using npm
-npm run android
-
-# OR using Yarn
-yarn android
+```bash
+git clone https://github.com/Buddhikamadumali/TodoApp
+cd smart-todo-app
+npm install
 ```
 
-### iOS
+---
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+## 📱 Run on Android
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+### Step 1: Start the Metro bundler
 
-```sh
-bundle install
+```bash
+npx react-native start
 ```
 
-Then, and every time you update your native dependencies, run:
+### Step 2: In a new terminal window, launch the app
 
-```sh
-bundle exec pod install
+```bash
+npx react-native run-android
 ```
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+> 📌 Make sure your emulator is running OR your Android device is connected via USB with debugging enabled.
 
-```sh
-# Using npm
-npm run ios
+---
 
-# OR using Yarn
-yarn ios
+## 📦 Build APK (Release Mode)
+
+```bash
+cd android
+./gradlew assembleRelease
 ```
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+Your release APK will be located at:
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+```
+android/app/build/outputs/apk/release/app-release.apk
+```
 
-## Step 3: Modify your app
+---
 
-Now that you have successfully run the app, let's make changes!
+## 🎨 Design System
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+[Figma design Link](https://www.figma.com/design/AWgqNKBPtCAhGmuHrrTXN8/Untitled?node-id=0-1&t=Hry26uOL2oI6EA03-1)
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+---
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+## 📽 Demo
 
-## Congratulations! :tada:
 
-You've successfully run and modified your React Native App. :partying_face:
+https://github.com/user-attachments/assets/a7881634-37e2-4bb0-9d51-8af9a349027c
 
-### Now what?
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
 
-# Troubleshooting
 
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+---
 
-# Learn More
+## 🚀 App Release
 
-To learn more about React Native, take a look at the following resources:
+[Download Smart To-Do v1.0.0 APK](https://github.com/your-username/smart-todo-app/releases/tag/v1.0.0)
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
-"# TodoApp" 
+---
+
+## 📧 Contact Me
+
+For any feedback or collaboration:
+
+- GitHub: [Buddhika Madumali](https://github.com/Buddhikamadumali)
+- Email: buddhikamadumali4@gmail.com
+
+---
