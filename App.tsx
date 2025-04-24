@@ -1,10 +1,10 @@
 import React from 'react'
 import { StyleSheet, View } from 'react-native'
-import WelcomeScreen from './screen/WelcomeScreen'
+import WelcomeScreen from './src/screen/WelcomeScreen'
 import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
-import HomeScreen from './screen/HomeScreen'
-import { RootStackParamList } from './screen/types'
+import HomeScreen from './src/screen/HomeScreen'
+import { RootStackParamList } from './src/screen/types'
 
 
 

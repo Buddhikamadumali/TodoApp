@@ -13,7 +13,7 @@ import DeleteTask from '../components/DeleteTask';
 import CircleDesign from '../components/CircleDesign';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import {useEffect} from 'react';
-import {useTaskStore} from '../store/useTaskStore';
+import {useTaskStore} from '../../store/useTaskStore';
 
 export default function HomeScreen() {
   const [task, setTask] = useState('');
